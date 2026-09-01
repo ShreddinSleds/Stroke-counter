@@ -106,6 +106,24 @@
   }
   .modeBtn.active { background: #2563eb; color: white; }
 
+  .brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 4px;
+  }
+  .brand-logo {
+    width: 36px;
+    height: 36px;
+    border-radius: 9px;
+  }
+  .brand-name {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+  }
+
   .sens-panel {
     background: #1c1c1c;
     border-radius: 14px;
@@ -129,6 +147,11 @@
 </head>
 <body>
 <div class="wrap">
+
+  <div class="brand">
+    <img src="icon.png" alt="StrokeX logo" class="brand-logo">
+    <span class="brand-name">StrokeX</span>
+  </div>
 
   <div class="readout">
     <div class="label">Strokes per minute</div>
